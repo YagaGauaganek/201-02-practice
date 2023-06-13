@@ -51,3 +51,30 @@ if (myName === "yes" || myName === "y") {
     // console.log("That is not correct!");
     alert("That is not correct!");
 }
+
+// My 1st attempt
+while (myName != "yes" && myName != "no" && myName !="y" && myName != "n") {
+    myName = prompt("Was I born on a pink cloud?").toLowerCase();
+    alert("Please answer yes/no or y/n only");
+}
+
+if (myName === "yes" || myName === "y") {
+    //console.log("Correct, my name is Yaga!");
+    alert("Yes! The cloud was Pink and cosy.");
+} else if (myName === "no" || myName === "n") {
+    // console.log("That is not correct!");
+    alert("Oh, try again!");
+}
+
+while (myName != "yes" && myName != "no" && myName !="y" && myName != "n") {
+    myName = prompt("Was I kidnapped by baby delivery Stork?").toLowerCase();
+    alert("Please answer yes/no or y/n only");
+}
+
+if (myName === "yes" || myName === "y") {
+    //console.log("Correct, my name is Yaga!");
+    alert("Yes! His name was William and he was very confused after all. I was not his target!");
+} else if (myName === "no" || myName === "n") {
+    // console.log("That is not correct!");
+    alert("Oh, try again!");
+}
