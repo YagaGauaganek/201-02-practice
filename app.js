@@ -12,7 +12,7 @@ userName();
 
 alert("My name is Yaga. Nice to meet you!" + user);
 
-let myName = prompt  ("Would you like to enter my dreamy world?").toLowerCase();
+let myName = prompt ("Would you like to enter my dreamy world?").toLowerCase();
 
 while (myName != "yes" && myName != "no" && myName !="y" && myName != "n") {
     alert("Please answer yes/no or y/n only");
