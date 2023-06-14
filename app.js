@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 
 let user;
 
@@ -29,7 +29,11 @@ if (myName === "yes" || myName === "y") {
 }
 
 let cloud = prompt ("Was I born on a pink cloud?").toLowerCase();
-    //alert("Please answer yes/no or y/n only");
+
+while (myName != "yes" && myName != "no" && myName !="y" && myName != "n") {
+    alert("Please answer yes/no or y/n only");
+    myName = prompt("Was I born on a pink cloud? Please answer yes/no or y/n only.").toLowerCase();
+}
 
 if (myName === "yes" || myName === "y") {
     //console.log("Correct, my name is Yaga!");
@@ -42,6 +46,10 @@ if (myName === "yes" || myName === "y") {
 let Stork = prompt("Was I kidnapped by baby delivery Stork?").toLowerCase();
     //alert("Please answer yes/no or y/n only");
 
+while (myName != "yes" && myName != "no" && myName !="y" && myName != "n") {
+    alert("Please answer yes/no or y/n only");
+    myName = prompt("Was I kidnapped by baby delivery Stork? Please answer yes/no or y/n only.").toLowerCase();
+}
 
 if (myName === "yes" || myName === "y") {
 //console.log("Correct, my name is Yaga!");
@@ -54,6 +62,10 @@ alert("Oh, try again!");
 let seal = prompt("Did I befriend with plush toy seal?").toLowerCase();
 //alert("Please answer yes/no or y/n only");
 
+while (myName != "yes" && myName != "no" && myName !="y" && myName != "n") {
+    alert("Please answer yes/no or y/n only");
+    myName = prompt("Did I befriend with plush toy seal? Please answer yes/no or y/n only.").toLowerCase();
+}
 
 if (myName === "yes" || myName === "y") {
 //console.log("Correct, my name is Yaga!");
@@ -63,5 +75,6 @@ alert("Yes! Her name was Foka Hoka and her fur was patterned in flowers");
 alert("Oh, try again!");
 }
 
+alert("Thank you for all your answers, " + user + "! Stay tuned for more!");
 
 

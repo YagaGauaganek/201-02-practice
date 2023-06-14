@@ -1,0 +1,38 @@
+/* *{ no empty rulesets
+ border: 1px solid black
+}*/
+
+/*label,
+input,
+button {
+    border: 1px solid black;
+    display: inline;
+    margin: 6rem 2rem;
+}*/
+
+* {
+    border: 1px solid black;
+    font-family: sans-serif;
+}
+
+.inline {
+    display: inline-block
+}
+
+#px-div{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    /*padding: 10px;*/
+}
+
+#pct-div {
+    width: 90%;
+    height: 90%;
+    background-color: tan;
+}
+
+#overflow-box {
+    max-height: 100px;
+    overflow: scroll;
+}

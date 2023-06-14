@@ -1,5 +1,6 @@
 "use strict"
-console.log("yada, yada, yada");
+
+console.log("Script has been logged");
 
 let answer1 = confirm("Are you ready to know me better");
 console.log(answer1);
