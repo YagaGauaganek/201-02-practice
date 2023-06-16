@@ -106,3 +106,24 @@ console.log(index)
 // points++ when correct answer
 
 // dont repeat yourself
+
+/// Chris' code - number
+
+const number  = "9";
+for(let i = 3; i > 0; i--) {
+    
+    let guesses = i + 1
+    let guess = prompt ("Guess an number between 1-15. you have 3" +  guesses + "attempts.")
+    if (guess)
+}
+
+//Chris' notes for rundaom number
+
+const number = Math.floor(Math.random)() * 10 +1);
+
+// more is sent on disord
+
+// (initialisation/  condition / after
+for(let i = 0; i < 3; i++) {
+    console.log([i])
+}
