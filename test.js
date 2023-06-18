@@ -165,10 +165,10 @@ for (i=0; i < 3 ; i++) {
       }
       attempts--;
     }
-    alert(
-      "No More attempts. I live in England " +
+    alert("No More attempts. I live in England " +
         correctNumber +
         "."
     );
   }
   guessNumber();
+

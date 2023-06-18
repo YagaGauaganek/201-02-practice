@@ -12,6 +12,8 @@ userName();
 
 //alert("My name is Yaga. Nice to meet you!" + user);
 
+function dreamQuiz() {
+
 let myName = prompt ("Would you like to enter my dreamy world?").toLowerCase();
 
 while (myName != "yes" && myName != "no" && myName !="y" && myName != "n") {
@@ -136,8 +138,11 @@ for (let i = 2; i >= 0; i--) {
         break;
     }
 }
+}
 
-function guessMyTravel () {
+dreamQuiz(); 
+
+function guessMyTravel() {
     const myTravel = ["Slovakia", "England", "Greece", "Poland"];
     const maxAttempts = 6;
     const guessedTravel = [];
@@ -163,10 +168,9 @@ function guessMyTravel () {
 alert("This quiz has ened! You scored " + guessedTravel.length + " correct answers. I worked in " + myTravel);
 }
 
-guessMyTravel ();
-
 alert ("It was nice to meet you " + user +  "! Thank you for all your answers.");
 
+guessMyTravel ();
 
 
 

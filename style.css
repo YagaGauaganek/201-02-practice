@@ -56,11 +56,52 @@ h2 {
     font-style: italic;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 30px;
+.btn-main {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto 0;
 }
+
+.btn-main:hover {
+    background-color: #F24C3D ;
+    color: plum;
+}
+
+.travel {
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto 0;
+}
+
+.travel:hover {
+    background-color: #F24C3D;
+    color: white;
+}
+
+#fairy {
+    text-align: center;
+    padding: 30px;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+}
+.column {
+        float: left;
+        width: 33.33%;
+        padding: 30px;
+    }
 
 .row:after {
     content: ""; 
