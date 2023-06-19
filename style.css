@@ -49,6 +49,11 @@ h1 {
     letter-spacing: 1rem;
 }
 
+/* .cosmic { 
+    width: 300px;
+    height: 300px;    
+} */
+
 h2 {
     color: #FFFCE8;
     font-family: 'Amatic SC', cursive;
@@ -75,7 +80,7 @@ h2 {
 
 .travel {
     background-color: purple;
-    border: none;
+    border:#F24C3D;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -88,18 +93,22 @@ h2 {
 .travel:hover {
     background-color: #F24C3D;
     color: white;
+    border: purple;
 }
 
 #fairy {
     text-align: center;
+    align-items: center;
     padding: 30px;
     width: 90%;
     height: 90%;
     background-color: white;
+    border: #FAACA8;
+    margin: 2rem auto 0 auto;
 }
 .column {
-        float: left;
-        width: 33.33%;
+        float:left;
+        width: 50%;
         padding: 30px;
     }
 
